@@ -2,27 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Final Project - About Me</title>
+    <title>Final Project - My Performances</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
-      .parent-flex {
+  
+
+       .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: #885053;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         margin-bottom: 50px;
+        position: static;
+        margin: 200px auto 50px auto;
+        width: 100vh; 
+        height: 300px;
+         }
+
+      .child-flex {
+        background-color: #e9c4b1;
+        padding: 20px;
+        margin: 50px;
+        height: 200px;
+        text-align: center;
       }
 
-      .parent-flex img {
-        width: 150px;
-        padding: 20px;
+      img{
+        width: 30%;
       }
-      .child-flex p {
-        background-color: pink;
-        padding: 20px;
-        margin: 20px;
-      }
+
     </style>
   </head>
   <body>
@@ -49,7 +58,7 @@
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>About Me</h1>
+    <h1>My Performances</h1>
     <div class="parent-flex">
       <div class="child-flex">
         <img

@@ -3,6 +3,8 @@
 body {
   padding-top: 30px;
   margin-left: 0px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -43,7 +45,8 @@ h1 {
   width: 100%;
 }
 
-body {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-}
+html {
+       
+       background-color: rgb(162, 208, 241);
+ }
+
